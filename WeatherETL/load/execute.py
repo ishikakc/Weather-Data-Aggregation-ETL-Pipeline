@@ -43,7 +43,7 @@ def main():
             properties=pg_properties
         )
 
-        print("✅ Data successfully loaded into PostgreSQL.")
+        print("Data successfully loaded into PostgreSQL.")
 
     except Exception as e:
         print(f"Failed to load data into PostgreSQL: {e}")
@@ -55,3 +55,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
