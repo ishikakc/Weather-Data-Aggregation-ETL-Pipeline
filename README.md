@@ -1,4 +1,4 @@
-# Weather ETL Project 🌦️
+#🌦️ Weather ETL Project 🌦️
 
 This project implements a complete **ETL (Extract, Transform, Load) pipeline** using **PySpark** and **PostgreSQL** for processing and analyzing Nepal’s weather data.
 
