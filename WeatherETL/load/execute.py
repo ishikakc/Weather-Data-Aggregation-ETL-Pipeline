@@ -7,7 +7,7 @@ def main():
 
     PG_URL = "jdbc:postgresql://localhost:5432/weather_db"
     PG_USER = "weather_user"
-    PG_PASSWORD = "kc12345"
+    PG_PASSWORD = " "
     PG_DRIVER = "org.postgresql.Driver"
 
     pg_properties = {
@@ -53,4 +53,5 @@ def main():
         print("Spark stopped successfully.")
 
 if __name__ == "__main__":
+
     main()
