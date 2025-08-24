@@ -7,7 +7,7 @@ def main():
 
     PG_URL = "jdbc:postgresql://localhost:5432/weather_db"
     PG_USER = "weather_user"
-    PG_PASSWORD = " "
+    PG_PASSWORD = " " #Replace with YOUR_PASSWORD
     PG_DRIVER = "org.postgresql.Driver"
 
     pg_properties = {
@@ -55,4 +55,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
